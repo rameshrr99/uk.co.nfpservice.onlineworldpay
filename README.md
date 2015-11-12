@@ -1,5 +1,5 @@
-# uk.co.nfpservice.onlineworldpay
-CiviCRM Online Worldpay Payment Processor
+#CiviCRM Online WorlPay Payment Processor
+uk.co.nfpservice.onlineworldpay
 
 --
 Extension Name	: 	uk.co.nfpservice.onlineworldpay
