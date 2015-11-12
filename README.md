@@ -35,14 +35,17 @@ For more documentation regarding the API please refer to https://online.worldpay
 --
 # FUTURE REQUIREMENT
 
-	Recurring Payment 
-	Webhook Integration
+	* Recurring Payment. 
+	* Webhook Integration.
 	
 --
 # CURRENT RELEASE
 	Compatible with CiviCRM 4.6.x and Drupal 7.x. 
 	
-	This module was developed based on CiviCRM 4.6 and Drupal 7.x. - hasn't been tested in any other version.  Please give a test and if you want to use it in lower or higher version. Please feel free to contact me if you have any issues. you can find the contact details at the footer of this document.
+	This module was developed based on CiviCRM 4.6 and Drupal 7.x. - hasn't been tested in any other version.  
+	Please give a test and if you want to use it in lower or higher version. 
+	Please feel free to contact me if you have any issues. 
+	You can find the contact details at the footer of this document.
 	
 	Currently tested in CiviCRM 4.6 / Drupal 7.x with Webform CiviCRM Integration 7.x - 7.14
 		
