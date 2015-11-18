@@ -241,9 +241,17 @@ class CRM_Core_worldpaymain extends CRM_Core_Payment {
 		
 		$obj1['token'] 				= $vars['token'];
 		
+		
 		$obj1['orderDescription'] 	= $params['description'];
 		$obj1['amount'] 			= $params['amount'] * 100 ;
 		$obj1['currencyCode'] 		=  'GBP';
+		$obj1['customerOrderCode']  = $params['invoiceID'];
+		$obj1['name']  = $params['first_name'];;
+		$obj1['billingAddress']['address1']  =  $params['billing_street_address-5'];
+		$obj1['billingAddress']['postalCode']  =  $params['billing_postal_code-5'];
+		$obj1['billingAddress']['city']  =  $params['billing_city-5'];
+		$obj1['billingAddress']['countryCode']  =  $params['country'];
+		
 		//$obj1['authorizeOnly'] 		= true;
 		
 		//create orders againt Worldpay  	
